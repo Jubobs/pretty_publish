@@ -16,5 +16,9 @@ the mxdom2latex.xsl file provided by pretty_publish;
 
 at the MATLAB command line.
 
+Uninstallation:
+ Simply replace toolbox/matlab/codetools/private/mxdom2latex.xsl by the
+ backup of the original.
+
 Additional dependencies (compared to vanilla "publish"):
  - matlab-prettifier LaTeX package (http://www.ctan.org/pkg/matlab-prettifier)
