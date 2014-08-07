@@ -1,0 +1,20 @@
+pretty-publish
+Author: Julien Cretel (jubobs.matlab.prettifier at gmail.com)
+
+Improves LaTeX output of MATLAB's "publish" function by performing
+syntax-highlighting of m-code
+
+Installation:
+ 1. Install dependencies (see below).
+ 2. Back up the file toolbox/matlab/codetools/private/mxdom2latex.xsl in
+your local MATLAB installation;
+ 3. Replace toolbox/matlab/codetools/private/mxdom2latex.xsl by
+the mxdom2latex.xsl file provided by pretty_publish;
+ 4. Test that everything works well by running
+
+    publish('peaks','latex')
+
+at the MATLAB command line.
+
+Additional dependencies (compared to vanilla "publish"):
+ - matlab-prettifier LaTeX package (http://www.ctan.org/pkg/matlab-prettifier)
