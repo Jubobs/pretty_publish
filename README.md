@@ -1,4 +1,5 @@
 pretty_publish
+
 Author: Julien Cretel (jubobs.tex@gmail.com)
 
 Improves LaTeX output of MATLAB's `publish` function by performing
