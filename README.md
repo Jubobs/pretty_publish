@@ -1,15 +1,15 @@
-pretty_publish
+# pretty_publish
 
 Author: Julien Cretel (jubobs.tex@gmail.com)
 
 Improves LaTeX output of MATLAB's `publish` function by performing
 syntax-highlighting of m-code
 
-### Dependencies (compared to vanilla "publish")
+## Dependencies (compared to vanilla "publish")
 
  - `matlab-prettifier` LaTeX package (http://www.ctan.org/pkg/matlab-prettifier)
 
-### Installation
+## Installation
 
  1. Install dependencies.
  2. Add the file `matlab2latex_pretty.xsl` to your search MATLAB path.
@@ -20,7 +20,7 @@ syntax-highlighting of m-code
 
 at the MATLAB command line.
 
-### User guide
+## User guide
 
 Specify `matlab2latex-pretty.xsl` as the stylesheet that `publish` should use:
 
